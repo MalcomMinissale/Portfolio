@@ -1,0 +1,27 @@
+body {
+    font-family: monospace;
+    margin: 15px;
+    }
+
+ section h1 {
+     color: blue;
+ }   
+ .nombre {
+    font-family: Georgia, serif;
+    font-size: 18px;
+    letter-spacing: 2px;
+    word-spacing: 2px;
+    color: #000000;
+    font-weight: 400;
+    text-decoration: none;
+    font-style: normal;
+    font-variant: small-caps;
+    text-transform: capitalize;
+}
+section {
+    border-style: solid;
+    border-color: blue;
+    border-width: 1px;
+    border-radius: 15px;
+    padding: 10px;
+}

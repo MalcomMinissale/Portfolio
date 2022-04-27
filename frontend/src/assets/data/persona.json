@@ -1,0 +1,13 @@
+{
+    "persona":
+        {
+            "fullName": "Malcom Minissale",
+            "dateOfBirth": "07/11/1989",
+            "mail": "malcomminissale@gmail.com",
+            "ubication": "Buenos Aires, Argentina",
+            "position": "Desarrollador Web Full Stack",
+            "image": "./assets/imagenes/malcom broadway.jpg",
+            "backImage": "./assets/imagenes/gol diego.png"
+
+        }
+}
