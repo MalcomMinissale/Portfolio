@@ -10,6 +10,7 @@ import { SkillsComponent } from './componentes/skills/skills.component';
 import { AcercaDeComponent } from './componentes/acerca-de/acerca-de.component';
 import { FooterComponent } from './componentes/footer/footer.component';
 import { HttpClientModule} from '@angular/common/http';
+import { ReactiveFormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -24,7 +25,8 @@ import { HttpClientModule} from '@angular/common/http';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    HttpClientModule
+    HttpClientModule,
+    ReactiveFormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

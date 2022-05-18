@@ -1,0 +1,57 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    },
+    {
+      "fullName": "Malcom Minissale",
+      "position": "Frontend Developer",
+      "ubication": "Buenos Aires, Argentina",
+      "image": "./assets/imagenes/malcom broadway.jpg",
+      "id": 2
+    },
+    {
+      "fullName": "Malcom Minissale",
+      "position": "Desarrollador Web Full Stack",
+      "ubication": "Buenos Aires, Argentina",
+      "image": "./assets/imagenes/malcom broadway.jpg",
+      "id": 3
+    },
+    {
+      "fullName": "Malcom Minissale",
+      "position": "Frontend Developer",
+      "ubication": "Buenos Aires, Argentina",
+      "image": "./assets/imagenes/malcom broadway.jpg",
+      "backImage": "https://",
+      "id": 4
+    },
+    {
+      "fullName": "Malcom Minissale",
+      "position": "Frontend Developer",
+      "ubication": "Buenos Aires, Argentina",
+      "image": "./assets/imagenes/malcom broadway.jpg",
+      "backImage": "./assets/imagenes/gol diego.png",
+      "id": 5
+    },
+    {
+      "fullName": "Malcom Minissale",
+      "position": "Frontend Developer",
+      "ubication": "Buenos Aires, Argentina",
+      "image": "./assets/imagenes/malcom broadway.jpg",
+      "backImage": "./assets/imagenes/gol diego.png",
+      "id": 6
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}
