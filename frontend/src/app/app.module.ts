@@ -11,6 +11,9 @@ import { AcercaDeComponent } from './componentes/acerca-de/acerca-de.component';
 import { FooterComponent } from './componentes/footer/footer.component';
 import { HttpClientModule} from '@angular/common/http';
 import { ReactiveFormsModule } from '@angular/forms';
+import { LogoAPComponent } from './componentes/logo-ap/logo-ap.component';
+import { RedesSocialesComponent } from './componentes/redes-sociales/redes-sociales.component';
+import { BannerComponent } from './componentes/banner/banner.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +23,10 @@ import { ReactiveFormsModule } from '@angular/forms';
     ExperienciaComponent,
     SkillsComponent,
     AcercaDeComponent,
-    FooterComponent
+    FooterComponent,
+    LogoAPComponent,
+    RedesSocialesComponent,
+    BannerComponent
   ],
   imports: [
     BrowserModule,
