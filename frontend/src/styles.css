@@ -1,17 +1,22 @@
+
 body {
     font-family: monospace;
-    margin: 15px;
+    background-color:#77a28f;
+   
     }
-
- section h1 {
-     color: blue;
+#nombre{
+    color: #333;
+}
+h1, h2, p {
+     color: #333
+    ;
  }   
  .nombre {
     font-family: Georgia, serif;
     font-size: 18px;
     letter-spacing: 2px;
     word-spacing: 2px;
-    color: #000000;
+    color: #333;
     font-weight: 400;
     text-decoration: none;
     font-style: normal;
@@ -20,10 +25,12 @@ body {
 }
 section {
     border-style: solid;
-    border-color: blue;
-    border-width: 1px;
+    border-color: #ec8f66;
+    border-width: 3px;
     border-radius: 15px;
     padding: 10px;
+    margin: 10px
+    
 }
 .ng-valid:not(form).ng-touched   {
     border-left: 5px solid #42A948; /* green */

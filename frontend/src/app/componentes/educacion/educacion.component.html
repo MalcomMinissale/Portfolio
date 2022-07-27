@@ -1,19 +1,19 @@
 <section>
-    <h1>Educación</h1>
+  <h1>Educación</h1>
     <div class="container-fluid">
-        <div *ngFor="let item of educacion" class="row">
-          <div class="col-2">
-            <img [src]="item.img" class="img-fluid" alt="">
-          </div>
-          <div class="col-8">
-            <h2>{{item.school}}</h2>
-            <p>{{item.title}}</p>
-            <p>{{item.start}} - {{item.end}}</p>
-          </div>
-          <div class="col-2">
-            <button>Editar</button>
-            <button>Eliminar</button>
-          </div>
+      <div *ngFor="let item of educacion" class="row">
+        <div class="col-2">
+          <img [src]="item.img" class="img-fluid" alt="">
+        </div>
+        <div class="col-8">
+          <h2>{{item.school}}</h2>
+          <p>{{item.title}}</p>
+          <p>{{item.start}} - {{item.end}}</p>
+        </div>
+        <div class="col-2">
+          <button>Editar</button>
+          <button>Eliminar</button>
         </div>
       </div>
-  <section>
+    </div>
+<section>

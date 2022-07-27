@@ -14,6 +14,8 @@ import { ReactiveFormsModule } from '@angular/forms';
 import { LogoAPComponent } from './componentes/logo-ap/logo-ap.component';
 import { RedesSocialesComponent } from './componentes/redes-sociales/redes-sociales.component';
 import { BannerComponent } from './componentes/banner/banner.component';
+import { NgCircleProgressModule } from 'ng-circle-progress';
+import { HysComponent } from './componentes/hys/hys.component';
 
 @NgModule({
   declarations: [
@@ -26,13 +28,15 @@ import { BannerComponent } from './componentes/banner/banner.component';
     FooterComponent,
     LogoAPComponent,
     RedesSocialesComponent,
-    BannerComponent
+    BannerComponent,
+    HysComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     HttpClientModule,
-    ReactiveFormsModule
+    ReactiveFormsModule,
+    NgCircleProgressModule.forRoot({})
   ],
   providers: [],
   bootstrap: [AppComponent]

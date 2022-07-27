@@ -1,0 +1,221 @@
+.row{
+    padding: 10px;
+}
+
+/* #nombre, #acerca{
+    display: inline;
+}
+ */
+
+div{
+    background-color: #77a28f;
+}
+
+/*etiqueta nombre*/
+
+#nombre{
+    font-weight: bolder;
+    font-size: xx-large;
+    margin-top: 3%;
+    text-align: right;
+    padding: 1%;
+}
+
+/*estilo de la foto de perfil*/
+
+@media (min-width: 1200px){
+    #fotodeperfil{
+    position: sticky;
+ 
+    width: 225px;
+    border-radius: 50%;
+   
+    box-shadow: 3px 3px 3px grey;
+    top:750px;
+    left: 2%
+}
+#posicion{
+    margin-top: 1%;
+    text-align: right;
+    padding: 1%;
+}
+#nombre{
+    margin-top: 1%;
+    text-align: right;
+    padding: 1%;
+    
+}
+#acerca{
+    
+    text-align: left;
+    padding: 1%;
+   
+   
+}
+}
+@media (min-width: 992px) and (max-width: 1200px){
+    #fotodeperfil{
+    position: sticky;
+ 
+    width: 250px;
+    border-radius: 50%;
+   
+   
+    box-shadow: 3px 3px 3px grey;
+    top: 67%;
+    left: 4%
+}
+#posicion{
+    margin-top: 1%;
+    text-align: right;
+    padding: 1%;
+}
+#nombre{
+    margin-top: 1%;
+    text-align: right;
+    padding: 1%;
+}
+#acerca{
+    
+    text-align: left;
+    padding: 1%;
+   
+   
+}
+}
+@media (min-width: 768px) and (max-width: 992px){
+    #fotodeperfil{
+    position: sticky;
+ 
+    width: 150px;
+    border-radius: 50%;
+   
+    box-shadow: 3px 3px 3px grey;
+    top: 54%;
+    left: 15px
+}
+#posicion{
+    margin-top: 1%;
+    text-align: right;
+    padding: 1%;
+}
+#nombre{
+    margin-top: 1%;
+    text-align: right;
+    padding: 1%;
+    font-size: larger;
+}
+#acerca{
+    
+    text-align: left;
+    padding: 1%;
+   
+   
+}
+}
+@media (min-width: 576px) and (max-width: 768px){
+    #fotodeperfil{
+    position: sticky;
+ 
+    width:100px;
+    border-radius: 50%;
+   
+    box-shadow: 3px 3px 3px grey;
+    top: 57%;
+    left: 10%
+}
+#posicion{
+    margin-top: 1%;
+    text-align: right;
+    padding: 1%;
+    font-size: large;
+}
+#nombre{
+    margin-top: 1%;
+    text-align: right;
+    padding: 1%;
+    font-size: large;
+}
+#acerca{
+    
+    text-align: center;
+    padding: 1%;
+   
+   
+}
+}
+@media (min-width: 440px) and (max-width: 576px){
+    #fotodeperfil{
+    position: sticky;
+ 
+    width: 30%;
+    border-radius: 50%;
+   
+    box-shadow: 3px 3px 3px grey;
+    top: 45%;
+    left: 35%
+}
+#posicion{
+    margin-top: 1%;
+    text-align: center;
+    padding: 1%;
+}
+#nombre{
+    margin-top: 1%;
+    text-align: center;
+    padding: 1%;
+    
+}
+#acerca{
+    margin-top: 1%;
+    text-align: center;
+    padding: 1%;
+}
+}
+@media (max-width: 440px){
+    #fotodeperfil{
+    position: sticky;
+    width: 40%;
+    
+    border-radius: 100%;
+    box-shadow: 3px 3px 3px grey;
+    left: 30%;
+    top: 40%;
+    
+}
+#posicion{
+    margin-top: 1%;
+    text-align: center;
+    padding: 1%;
+}
+#nombre{
+    margin-top: 1%;
+    text-align: center;
+    padding: 1%;
+}
+#acerca{
+    margin-top: 1%;
+    text-align: center;
+    padding: 1%;
+}
+}
+
+
+
+
+
+
+
+
+
+/* #posicion{
+    
+    margin-top: 10%;
+    text-align: center;
+}
+#acerca{
+    margin-top: 1%;
+    text-align: left;
+    padding: 1%;
+}
+ */
