@@ -16,6 +16,7 @@ import { RedesSocialesComponent } from './componentes/redes-sociales/redes-socia
 import { BannerComponent } from './componentes/banner/banner.component';
 import { NgCircleProgressModule } from 'ng-circle-progress';
 import { HysComponent } from './componentes/hys/hys.component';
+import { ProyectoComponent } from './componentes/proyecto/proyecto.component';
 
 @NgModule({
   declarations: [
@@ -29,7 +30,8 @@ import { HysComponent } from './componentes/hys/hys.component';
     LogoAPComponent,
     RedesSocialesComponent,
     BannerComponent,
-    HysComponent
+    HysComponent,
+    ProyectoComponent
   ],
   imports: [
     BrowserModule,

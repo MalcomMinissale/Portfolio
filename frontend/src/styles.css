@@ -1,7 +1,8 @@
 
 body {
     font-family: monospace;
-    background-color:#77a28f;
+    /* background-color:#77a28f; */
+    background-image: linear-gradient(to bottom right,#77a28f, rgb(207, 97, 150));
    
     }
 #nombre{
