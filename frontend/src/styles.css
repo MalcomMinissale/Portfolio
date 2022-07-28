@@ -3,7 +3,9 @@ body {
     font-family: monospace;
     /* background-color:#77a28f; */
     background-image: linear-gradient(to bottom right,#77a28f, rgb(207, 97, 150));
-   
+    overflow-x: hidden;
+    width: 100%;
+    
     }
 #nombre{
     color: #333;
@@ -40,3 +42,12 @@ section {
 .ng-invalid:not(form).ng-touched  {
     border-left: 5px solid #a94442; /* red */
   }
+  .row {
+    --bs-gutter-x: 0;
+    --bs-gutter-y: 0;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: calc(-1 * var(--bs-gutter-y));
+    margin-right: calc(-0.5 * var(--bs-gutter-x));
+    margin-left: calc(-0.5 * var(--bs-gutter-x));
+}

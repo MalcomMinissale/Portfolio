@@ -3,7 +3,7 @@
 		{
 			"school": "Argentina Programa",
 			"title": "Desarrollador Web Full Stack",
-			"img": "./assets/imagenes/ARGENTINA-PROGRAMA.png",
+			"img": "./assets/imagenes/APLogo.png",
 			"career": "Se Programar; Yo Programo",
 			"score": 0,
 			"start": "2021",
@@ -12,16 +12,16 @@
 		{
 			"school": "ISPED",
 			"title": "Técnico Superior en Periodismo",
-			"img": "./assets/imagenes/isped.png",
+			"img": "./assets/imagenes/isped1.png",
 			"career": "Tecnicatura Superior en Periodismo",
-			"score": 82,
+			"score": 0,
 			"start": "2020",
 			"end": ""
 		},
 		{
 			"school": "Escuela Tecson",
 			"title": "Técnico en Grabación y Post Producción de Audio",
-			"img": "./assets/imagenes/tecson2.png",
+			"img": "./assets/imagenes/tecson3.png",
 			"career": "Grabación y Post Producción de Audio",
 			"score": 0,
 			"start": "2009",
@@ -31,7 +31,7 @@
 		{
 			"school": "Instituto Susini",
 			"title": "Bachiller",
-			"img": "./assets/imagenes/susini.png",
+			"img": "./assets/imagenes/susini1.png",
 			"career": "Bachiller",
 			"score": 0,
 			"start": "2007",
@@ -41,7 +41,7 @@
 		{
 			"school": "Colegio Pío IX",
 			"title": "Técnico en Electrónica",
-			"img": "./assets/imagenes/logo pio.png",
+			"img": "./assets/imagenes/pio1.png",
 			"career": "Industrial",
 			"score": 0,
 			"start": "2003",
