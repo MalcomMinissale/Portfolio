@@ -12,3 +12,15 @@
   
     vertical-align: top;
 }
+/* .li{
+    margin-right: 5%;
+} */
+#talleres > * {
+    
+    width: 100%;
+    max-width: 100%;
+    margin-left: 3%;
+}
+.row{
+    padding: 3%;
+}

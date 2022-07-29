@@ -2,15 +2,13 @@
     padding: 10px;
 }
 
-/* #nombre, #acerca{
-    display: inline;
+#fotodeperfil{
+    width: 100%;
+    border-radius: 50%;
+    margin-top: 0%;
+    margin-left: 10%;
+
 }
- */
-
-
-
-/*etiqueta nombre*/
-
 #nombre{
     font-weight: bolder;
     font-size: xx-large;
@@ -19,6 +17,13 @@
     padding: 1%;
 }
 
+#posicion{
+    font-weight: normal;
+    font-size: larger;
+    margin-top: 3%;
+    text-align: right;
+    padding: 1%;
+}
 /*estilo de la foto de perfil*/
 
 @media (min-width: 1200px){
@@ -34,12 +39,12 @@
 }
 #posicion{
     margin-top: 1%;
-    text-align: right;
+    text-align: left;
     padding: 1%;
 }
 #nombre{
     margin-top: 1%;
-    text-align: right;
+    text-align: left;
     padding: 1%;
     
 }
@@ -65,12 +70,12 @@
 }
 #posicion{
     margin-top: 1%;
-    text-align: right;
+    text-align: left;
     padding: 1%;
 }
 #nombre{
     margin-top: 1%;
-    text-align: right;
+    text-align: left;
     padding: 1%;
 }
 #acerca{
@@ -94,12 +99,12 @@
 }
 #posicion{
     margin-top: 1%;
-    text-align: right;
+    text-align: left;
     padding: 1%;
 }
 #nombre{
     margin-top: 1%;
-    text-align: right;
+    text-align: left;
     padding: 1%;
     font-size: larger;
 }
@@ -124,13 +129,13 @@
 }
 #posicion{
     margin-top: 1%;
-    text-align: right;
+    text-align: left;
     padding: 1%;
     font-size: large;
 }
 #nombre{
     margin-top: 1%;
-    text-align: right;
+    text-align: left;
     padding: 1%;
     font-size: large;
 }
@@ -203,17 +208,3 @@
 
 
 
-
-
-
-/* #posicion{
-    
-    margin-top: 10%;
-    text-align: center;
-}
-#acerca{
-    margin-top: 1%;
-    text-align: left;
-    padding: 1%;
-}
- */
