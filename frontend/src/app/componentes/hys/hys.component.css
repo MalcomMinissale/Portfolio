@@ -1,3 +1,13 @@
 div{
     padding-bottom: 5px;
 }
+
+.container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#botonesHard, #botonesSoft{
+    margin-right: 3%;
+}

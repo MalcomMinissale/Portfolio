@@ -1,11 +1,17 @@
 .container{
     width: auto;
 }
+#proyectosRealizados, #otrosProyectos{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
 .parte1, .parte2{
     display: inline-block; 
     text-align: justify;
 } 
 .img-proyecto{
+    
     box-shadow: 10px 10px 30px #333;
 }
 .parte2{

@@ -7,6 +7,7 @@
     border-radius: 50%;
     margin-top: 0%;
     margin-left: 10%;
+    box-shadow: 3px 3px 3px grey;
 
 }
 #nombre{
@@ -24,6 +25,27 @@
     text-align: right;
     padding: 1%;
 }
+
+#botonesAcerca{
+    text-align: right;
+    margin-right: 4.5%;
+    margin-top: -10%;
+
+}
+
+#acerca{
+  
+    justify-content: space-between;
+   
+}
+p{
+    padding-top: 2%;
+}
+
+/* #botonFoto{
+    margin-right: 4.5%;
+    margin-top: 100%;
+} */
 /*estilo de la foto de perfil*/
 
 @media (min-width: 1200px){

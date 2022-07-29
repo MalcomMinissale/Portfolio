@@ -1,3 +1,7 @@
+#botones{
+    text-align: right;
+    margin-right: 12%;
+}
 
 @media (max-width: 575px){
 div{

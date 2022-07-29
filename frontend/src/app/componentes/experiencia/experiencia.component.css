@@ -3,6 +3,10 @@
     text-align: start;
 }
 
+#botones1, #botones2{
+    text-align: right;
+    margin-right: 6.5%;
+}
 
 #Broadway{
     border-radius: 100%;
