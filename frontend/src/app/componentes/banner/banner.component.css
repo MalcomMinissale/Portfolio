@@ -6,3 +6,11 @@
     margin-left: -79.5%;
     margin-bottom: -5%;
 }
+
+@media (max-width: 575px){
+   
+    #botonFoto{
+        margin-left: -52%;
+        margin-bottom: -5%;
+    }
+}

@@ -33,8 +33,12 @@
     .redes img{
         margin: 0.25em;
     }
-    .btn{
-        margin-right: 0.5em;
-        margin-bottom: 0.25em;
+    #botones1, #botones2{
+        left: 20%;
+      
+    }
+    #botones1, #botones2 {
+        text-align: right;
+        margin-right: 0%;
     }
     }

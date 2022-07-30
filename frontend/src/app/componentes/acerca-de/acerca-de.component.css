@@ -191,10 +191,17 @@ p{
     padding: 1%;
     
 }
+h2{
+    text-align: left;
+}
 #acerca{
     margin-top: 1%;
-    text-align: center;
+    text-align: left;
     padding: 1%;
+}
+#botonNombre{
+    padding-right: 45%;
+    padding-left: 45%;
 }
 }
 @media (max-width: 440px){
@@ -217,11 +224,19 @@ p{
     margin-top: 1%;
     text-align: center;
     padding: 1%;
+    
+}
+h2{
+    text-align: left;
 }
 #acerca{
     margin-top: 1%;
-    text-align: center;
+    text-align: left;
     padding: 1%;
+}
+#botonNombre{
+    padding-right: 45%;
+    padding-left: 45%;
 }
 }
 

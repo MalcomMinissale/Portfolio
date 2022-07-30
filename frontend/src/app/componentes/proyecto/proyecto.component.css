@@ -30,3 +30,19 @@
 .row{
     padding: 3%;
 }
+
+@media (max-width: 575px){
+#proyectosRealizados{
+    text-align: right;
+
+}
+#botonesProyectos, #botonesTalleres{
+    text-align: center;
+}
+h1, h2, h4{
+    text-align: left;
+}
+#botonesTalleres{
+    display: inline-block;
+}
+}
