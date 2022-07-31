@@ -1,6 +1,5 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
-
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { EncabezadoComponent } from './componentes/encabezado/encabezado.component';
@@ -17,6 +16,9 @@ import { BannerComponent } from './componentes/banner/banner.component';
 import { NgCircleProgressModule } from 'ng-circle-progress';
 import { HysComponent } from './componentes/hys/hys.component';
 import { ProyectoComponent } from './componentes/proyecto/proyecto.component';
+import { HomeComponent } from './componentes/home/home.component';
+import { LoginComponent } from './componentes/login/login.component';
+
 
 @NgModule({
   declarations: [
@@ -31,7 +33,9 @@ import { ProyectoComponent } from './componentes/proyecto/proyecto.component';
     RedesSocialesComponent,
     BannerComponent,
     HysComponent,
-    ProyectoComponent
+    ProyectoComponent,
+    HomeComponent,
+    LoginComponent
   ],
   imports: [
     BrowserModule,
