@@ -9,7 +9,7 @@ import { SkillsComponent } from './componentes/skills/skills.component';
 import { AcercaDeComponent } from './componentes/acerca-de/acerca-de.component';
 import { FooterComponent } from './componentes/footer/footer.component';
 import { HttpClientModule} from '@angular/common/http';
-import { ReactiveFormsModule } from '@angular/forms';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { LogoAPComponent } from './componentes/logo-ap/logo-ap.component';
 import { RedesSocialesComponent } from './componentes/redes-sociales/redes-sociales.component';
 import { BannerComponent } from './componentes/banner/banner.component';
@@ -18,6 +18,7 @@ import { HysComponent } from './componentes/hys/hys.component';
 import { ProyectoComponent } from './componentes/proyecto/proyecto.component';
 import { HomeComponent } from './componentes/home/home.component';
 import { LoginComponent } from './componentes/login/login.component';
+import { interceptorProvider } from './service/interceptor-service';
 
 
 @NgModule({
@@ -42,9 +43,10 @@ import { LoginComponent } from './componentes/login/login.component';
     AppRoutingModule,
     HttpClientModule,
     ReactiveFormsModule,
+    FormsModule,
     NgCircleProgressModule.forRoot({})
   ],
-  providers: [],
+  providers: [interceptorProvider],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
