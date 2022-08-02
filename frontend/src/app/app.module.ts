@@ -19,6 +19,10 @@ import { ProyectoComponent } from './componentes/proyecto/proyecto.component';
 import { HomeComponent } from './componentes/home/home.component';
 import { LoginComponent } from './componentes/login/login.component';
 import { interceptorProvider } from './service/interceptor-service';
+import { NewExperienciaComponent } from './componentes/experiencia/new-experiencia.component';
+import { EditExperienciaComponent } from './componentes/experiencia/edit-experiencia.component';
+import { NeweducacionComponent } from './componentes/educacion/new-educacion.component';
+import { EditeducacionComponent } from './componentes/educacion/editeducacion.component';
 
 
 @NgModule({
@@ -36,7 +40,11 @@ import { interceptorProvider } from './service/interceptor-service';
     HysComponent,
     ProyectoComponent,
     HomeComponent,
-    LoginComponent
+    LoginComponent,
+    NewExperienciaComponent,
+    EditExperienciaComponent,
+    NeweducacionComponent,
+    EditeducacionComponent
   ],
   imports: [
     BrowserModule,

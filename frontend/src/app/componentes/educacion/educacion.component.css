@@ -4,6 +4,12 @@
   
 }
 
+.btn-group{
+    text-align: right;
+    margin-right: 12.5%;
+  
+}
+
 @media (max-width: 575px){
 div{
     margin-bottom: 0.25em;

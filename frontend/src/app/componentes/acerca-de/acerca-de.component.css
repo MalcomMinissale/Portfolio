@@ -28,11 +28,17 @@
 
 #botonesAcerca{
     text-align: right;
-    margin-right: 4.5%;
-    margin-top: -10%;
+    margin-right: 0%;
+    margin-top: -13%;
 
 }
 
+#lapizAcerca{
+left:-5%
+}
+.btn {
+    border-radius: 5%
+}
 #acerca{
   
     justify-content: space-between;

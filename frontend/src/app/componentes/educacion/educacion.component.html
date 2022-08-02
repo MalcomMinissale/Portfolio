@@ -1,4 +1,49 @@
 <section>
+    
+  <div class="container-fluid">
+    <div class="row">
+      <h1>Educación</h1>
+      <div class="col-lg-2"> 
+        <button type="button" class="btn btn-dark" routerLink="/nuevaedu" *ngIf="isLogged">
+            Editar Educación
+          </button>
+      </div>
+      <div class="col-12">
+        <table class="table">
+            <tbody>
+                <tr *ngFor="let Educacion of educacion">
+                    <td><h5>{{Educacion.nombreE}}</h5></td>
+                    <td>{{Educacion.descripcionE}}</td>
+                    <div class="btn-group">
+                    <td *ngIf="isLogged"><button type="button" class="btn btn-outline-light" 
+                      routerLink="/editedu/{{Educacion.id}}">
+                      
+                      <i class="bi bi-pencil"></i></button></td>
+                      
+                      <td *ngIf="isLogged"><button type="button" class="btn btn-danger"
+                        (click)="delete(Educacion.id)">
+                        
+                        <i class="bi bi-trash"></i></button></td>
+                      </div>
+
+                </tr>
+
+            </tbody>
+
+        </table>
+      </div>
+    </div>
+  </div>
+  </section>
+  
+
+
+
+
+
+
+
+<!-- <section>
   <h1>Educación</h1>
     <div class="container-fluid">
       
@@ -22,4 +67,4 @@
     </div>
       
     </div>
-<section>
+<section> -->

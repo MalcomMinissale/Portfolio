@@ -1,8 +1,38 @@
 <section>
-    <h1>Experiencia</h1>
+    
     <div class="container-fluid">
       <div class="row">
-        <div class="col-xs-12 col-sm-2 col-md-2 col-lg-2">
+        <h1>Experiencia</h1>
+        <div class="col-lg-2"> 
+          <button type="button" class="btn btn-dark" routerLink="/nuevaexp" *ngIf="isLogged">
+              Nueva Experiencia
+            </button>
+        </div>
+        <div class="col-12">
+          <table class="table">
+              <tbody>
+                  <tr *ngFor="let Experiencia of expe">
+                      <td><h5>{{Experiencia.nombreExp}}</h5></td>
+                      <td>{{Experiencia.descripcionExp}}</td>
+                      <div class="btn-group">
+                      <td *ngIf="isLogged"><button type="button" class="btn btn-outline-light" 
+                        routerLink="/editexp/{{Experiencia.id}}">
+                        
+                        <i class="bi bi-pencil-fill"></i></button></td>
+                        <td *ngIf="isLogged"><button type="button" class="btn btn-danger"
+                          (click)="delete(Experiencia.id)">
+                          
+                          <i class="bi bi-trash"></i></button></td>
+                        </div>
+
+
+                  </tr>
+
+              </tbody>
+
+          </table>
+        </div>
+       <!--  <div class="col-xs-12 col-sm-2 col-md-2 col-lg-2">
           <img src="./assets/imagenes/automacion3.png" class="img-fluid" alt="">
         </div>
         <div class="col-xs-12 col-sm-7 col-md-7 col-lg-7 offset-sm-1 offset-md-1 offset-lg-1">
@@ -44,7 +74,7 @@
          <button type="button" class="btn btn-outline-light">
             <img src="../../../assets/imagenes/delete1.png" alt=""></button>   
         </div>
-      </div>
+      </div> -->
       </div>
     </div>
     </section>
