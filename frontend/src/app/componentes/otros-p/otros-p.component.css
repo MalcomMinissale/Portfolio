@@ -1,0 +1,48 @@
+.container{
+    width: auto;
+}
+#proyectosRealizados, #otrosProyectos{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.parte1, .parte2{
+    display: inline-block; 
+    text-align: justify;
+} 
+.img-proyecto{
+    
+    box-shadow: 10px 10px 30px #333;
+}
+.parte2{
+  
+    vertical-align: top;
+}
+/* .li{
+    margin-right: 5%;
+} */
+#talleres > * {
+    
+    width: 100%;
+    max-width: 100%;
+    margin-left: 3%;
+}
+.row{
+    padding: 3%;
+}
+
+@media (max-width: 575px){
+#proyectosRealizados{
+    text-align: right;
+
+}
+#botonesProyectos, #botonesTalleres{
+    text-align: center;
+}
+h1, h2, h4{
+    text-align: left;
+}
+#botonesTalleres{
+    display: inline-block;
+}
+}
